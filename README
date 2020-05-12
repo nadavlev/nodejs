@@ -1,0 +1,36 @@
+# show dependencies , --jason to parse into json
+npm ls -g --depth=0 --json
+
+#show dependecies with description
+npm ls -g --depth=0
+
+#See out dated dependecies
+npm outdated 
+
+#configur npm, examaple change author name for npm init
+npm config list -l
+
+npm config set init-author-name "Nadav Lev"
+npm config delete init-author-name
+
+#change config to always use the -S flag (save dependancies to package.json)
+npm config set save true
+
+# search for dependencies
+npm search
+
+#lockdown all versions
+npm shrinkwrap
+
+npm home lodash
+
+npm repo lodash
+
+npm prune # remove dependancies not is package json
+
+npm visnup
+
+npm xmas
+
+
+
